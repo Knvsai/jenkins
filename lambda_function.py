@@ -1,8 +1,10 @@
 import json
 
 def lambda_handler(event, context):
-    # TODO implement test 1
+    # TODO implement test 2
     return {
         'statusCode': 200,
-        'body': json.dumps('Hi from AWS Lambda function!')
+        'body': json.dumps('Hello from AWS Lambda!')
     }
+    
+
